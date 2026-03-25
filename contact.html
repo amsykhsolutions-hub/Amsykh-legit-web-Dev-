@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact - Amsykh Digital</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta property="og:title" content="Amsykh Digital">
+<meta property="og:description" content="We build modern websites">
+<link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+<div id="loader" class="loader"></div>
+
+<header class="navbar">
+  <div class="container">
+    <h1 class="logo">Amsykh</h1>
+    <button id="darkModeToggle">🌙</button>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        
+       
+      </ul>
+    </nav>
+
+    <button id="menuBtn">☰</button>
+  </div>
+</header>
+
+<section class="contact">
+  <div class="container">
+    <h2>Contact Me</h2>
+<section class="hero small">
+  <div class="container">
+    <h2>Contact Us</h2>
+    <p>Let's discuss your project</p>
+  </div>
+</section>
+      <p class="direct-email">
+  Or email me at 
+  <a href="mailto:amsykhsolutions@gmail.com">amsykhsolutions@gmail.com</a>
+  <br>
+  Or chat with me instantly on
+  <a href="https://wa.me/2349015803289">WhatsApp</a>
+</p>
+</p>
+    <form id="contactForm" method="POST">
+      <input type="hidden" name="_subject" value="New message from Amsykh website">
+      <label>Name</label>
+      <input type="text" name="name" required>
+
+      <label>Email</label>
+      <input type="email" name="email" required>
+
+      <label>Message</label>
+      <textarea name="message" required></textarea>
+
+      <button type="submit">Send</button>
+      <p id="formStatus"></p>
+    </form>
+  </div>
+</section>
+<footer>
+  <div class="container">
+    <p>© 2026 Amsykh Digital</p>
+
+    <p class="email">
+      Email: 
+      <a href="mailto:amsykhsolutions@gmail.com">amsykhsolutions@gmail.com</a>
+    </p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
